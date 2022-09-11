@@ -1,0 +1,39 @@
+
+<html>
+<head>
+    <title>Registration form</title>
+    <link rel="stylesheet"  type="text/css" href="fstyle.css">
+</head>
+
+<body>   
+    
+    <div id=header>
+    <a href="#" id=logo>
+      <img src="img/p5.png"  height="80px">
+    </a>   
+  <div class="main"> 
+    <div class="Register">     
+  <form action="insert.php" method="POST">
+      <lable>First Name :</lable><br>
+      <input type="text" placeholder="Enter First Name" name="fname" id="name" required> <br><br>
+      <lable>Last Name :</lable><br>
+      <input type="text" placeholder="Enter Last Name" name="lname" id="name"required> <br><br>
+      <lable>Date Of Birth :</lable><br>
+      <input type="dob"  placeholder="dd/mm/yy" name="dob" id="name"required> <br><br>
+      <lable>Gender :</lable><br>
+      <input type="radio" name="gender" value="m" id="male"required>Male
+      <input type="radio" name="gender" value="f" id="female"required>Female
+      <input type="radio" name="gender" value="o" id="other"required>other <br><br>
+      <lable>Permanent address :</lable><br>
+      <input type="text" placeholder="Fill your address" name="address" id="name"required> <br><br>
+      <lable>Mobile no. :</lable><br>
+      <input type="text" placeholder="contact no. +91" name="contact no" id="name"required> <br><br>
+      <lable>Email-id :</lable><br>
+      <input type="email" value="Enter  your emai-id" name="email-id"required> <br><br>
+      <input type="submit" value="submit" id="submit"> 
+     </form> 
+     </div>
+    </div>
+ 
+</body>
+</html>

@@ -1,0 +1,76 @@
+/*External css file*/
+p{font-family: Roboto;
+font-size: 16px;  
+}
+body{ 
+    max-width: 95%;
+    margin: auto;
+    font-family:Roboto;
+    font-size:16px;
+    color:darkblack;
+  /*background-color: rgba(210, 105, 30, 0.336);*/
+}
+h4{
+   font:italic small-caps bolder 28px arial,sans-serif; 
+}
+/*h1{
+    border: 2px solid rgba(0, 0, 0, 0.493);
+}*/
+#ul{
+    float:right;
+}
+#ol{
+    float:left;
+}
+#background-image {
+    background-image: url("img/p1.jpg");
+    background-size: "0px";
+    padding-top: 50px;
+    color: #fff;
+    margin-top: 20px;
+}
+#content{
+    background-color: rgba(0, 0, 0, 0.116);
+    max-width:450px;
+    padding:0px 20px;
+    margin-top:40px;
+}
+table{
+    background-image:url("img/p2.png" ) ;
+    border:1px solid;
+    width:100%;
+    border-collapse: collapse;
+}
+th,td{
+    padding:15px;
+    border: 1px solid black;
+    height: 30px;
+}
+th{
+    text-align:left;
+}
+li a {
+    display: block;
+    color: #666;
+    padding: 0px 16px;
+    text-decoration: none;
+    float: right;
+}
+#logo{
+    float: left;
+    
+}
+#header {
+    padding: 20px 0px;
+    border-bottom: 5px solid;
+	
+}
+.search{
+	float: right;
+}
+
+#lower{   
+ margin-top: 35px;   
+border-top: 2px solid black;
+}
+ 
